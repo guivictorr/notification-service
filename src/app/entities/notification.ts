@@ -2,7 +2,7 @@ import { randomUUID } from 'node:crypto';
 import { Optional } from '../helpers/optional';
 import { Content } from './content';
 
-interface NotificationProps {
+export interface NotificationProps {
   recipientId: string;
   content: Content;
   category: string;
